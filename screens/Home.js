@@ -1,12 +1,21 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text, SafeAreaView } from 'react-native'
+import React, { useLayoutEffect } from 'react'
+import { useNavigation } from '@react-navigation/native'
 
 const Home = () => {
-  return (
-    <View className="bg-red-400">
-      <Text className="text-center font-black p-2">Home</Text>
-    </View>
-  )
+   const navigation = useNavigation()
+
+   useLayoutEffect( () => {
+      navigation.setOptions({
+         headerShown: false
+      })
+   }, [])
+
+   return (
+      <SafeAreaView className="bg-red-400">
+         <Text className="text-center font-black p-4">Home</Text>
+      </SafeAreaView>
+)
 }
 
 export default Home
