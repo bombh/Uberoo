@@ -1,6 +1,8 @@
-import { View, Text, SafeAreaView, Image, TextInput } from 'react-native'
+import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
+
+import Categories from '../components/Categories'
 
 import {
    ChevronDownIcon, UserIcon, MagnifyingGlassIcon, AdjustmentsVerticalIcon
@@ -50,6 +52,17 @@ const Home = () => {
 
             <AdjustmentsVerticalIcon size={25} color={"#00CCBB"} />
          </View>
+
+         {/* Body */}
+         <ScrollView className="p-3" >
+
+            {/* Categories */}
+            <Categories />
+
+            {/* Featured Rows */}
+
+
+         </ScrollView>
 
       </SafeAreaView>
 )
