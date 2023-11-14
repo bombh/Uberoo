@@ -10,6 +10,7 @@ import {
    ScrollView } from 'react-native'
 
 import Categories from '../components/Categories'
+import FeaturedRow from '../components/FeaturedRow'
 
 import {
    ChevronDownIcon,
@@ -70,6 +71,28 @@ const Home = () => {
             <Categories />
 
             {/* Featured Rows */}
+            <FeaturedRow 
+               id="123"
+               title="Featured"
+               descrition="Paid placements from our partners"
+               featuredCategory="featured"
+               />
+
+            {/* Tasty */}
+            <FeaturedRow 
+               id="1234"
+               title="Tasty for you"
+               descrition="PJuicy discount for everyone !"
+               featuredCategory="featured"
+               />
+
+            {/* Near you */}
+            <FeaturedRow 
+               id="12345"
+               title="Near you"
+               descrition="Support local restaurants tonight !"
+               featuredCategory="featured"
+            />
 
 
          </ScrollView>

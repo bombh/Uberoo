@@ -8,7 +8,7 @@ const Categories = () => {
       horizontal
       contentContainerStyle={{
          columnGap: 10,
-         paddingHorizontal: 3,
+         paddingHorizontal: 0,
          paddingTop: 5
       }}
       showsHorizontalScrollIndicator={false}
@@ -28,7 +28,11 @@ const Categories = () => {
          imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
 
       <CategoryCard
-         title="Italian"
+         title="Sushi"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+
+      <CategoryCard
+         title="Thaï"
          imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
 
       <CategoryCard
@@ -36,11 +40,7 @@ const Categories = () => {
          imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
 
       <CategoryCard
-         title="Italian"
-         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
-
-      <CategoryCard
-         title="Italian"
+         title="Sushi"
          imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
 
     
