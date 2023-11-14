@@ -74,7 +74,7 @@ const Home = () => {
             <FeaturedRow 
                id="123"
                title="Featured"
-               descrition="Paid placements from our partners"
+               description="Paid placements from our partners"
                featuredCategory="featured"
                />
 
@@ -82,7 +82,7 @@ const Home = () => {
             <FeaturedRow 
                id="1234"
                title="Tasty for you"
-               descrition="PJuicy discount for everyone !"
+               description="PJuicy discount for everyone !"
                featuredCategory="featured"
                />
 
@@ -90,7 +90,7 @@ const Home = () => {
             <FeaturedRow 
                id="12345"
                title="Near you"
-               descrition="Support local restaurants tonight !"
+               description="Support local restaurants tonight !"
                featuredCategory="featured"
             />
 
