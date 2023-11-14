@@ -1,11 +1,21 @@
-import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
+
+import {
+   View,
+   Text,
+   SafeAreaView,
+   Image,
+   TextInput,
+   ScrollView } from 'react-native'
 
 import Categories from '../components/Categories'
 
 import {
-   ChevronDownIcon, UserIcon, MagnifyingGlassIcon, AdjustmentsVerticalIcon
+   ChevronDownIcon,
+   UserIcon,
+   MagnifyingGlassIcon,
+   AdjustmentsVerticalIcon
 } from 'react-native-heroicons/outline'
 
 const Home = () => {

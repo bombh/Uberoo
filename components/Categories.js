@@ -3,18 +3,48 @@ import React from 'react'
 import CategoryCard from './CategoryCard'
 
 const Categories = () => {
-  return (
-    <ScrollView
-      className=""
+   return (
+   <ScrollView
       horizontal
-      contentContainerStyle={{ columnGap: 6}}
-    >
+      contentContainerStyle={{
+         columnGap: 10,
+         paddingHorizontal: 3,
+         paddingTop: 5
+      }}
+      showsHorizontalScrollIndicator={false}
+   >
       
       {/* CategoryCard */}
-      <CategoryCard />
-      <CategoryCard />
-      <CategoryCard />
-    </ScrollView>
+      <CategoryCard
+         title="Sushi"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+      
+      <CategoryCard
+         title="Thaï"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+      
+      <CategoryCard
+         title="Italian"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+
+      <CategoryCard
+         title="Italian"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+
+      <CategoryCard
+         title="Italian"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+
+      <CategoryCard
+         title="Italian"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+
+      <CategoryCard
+         title="Italian"
+         imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Nigiri_Sushi_%2826478725732%29.jpg/280px-Nigiri_Sushi_%2826478725732%29.jpg" />
+
+    
+   </ScrollView>
   )
 }
 
