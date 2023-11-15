@@ -52,7 +52,7 @@ const Home = () => {
          </View>
 
          {/* Search */}
-         <View className="flex-row items-center space-x-2 pb-3 mx-3">
+         <View className="flex-row items-center space-x-2 px-3 pb-3">
             <View className="flex-row flex-1 space-x-2 bg-gray-200 p-3">
                <MagnifyingGlassIcon color="gray" size="20" />
                <TextInput
@@ -65,7 +65,12 @@ const Home = () => {
          </View>
 
          {/* Body */}
-         <ScrollView className="p-3" >
+         <ScrollView
+            className="bg-gray-200 p-3"
+            contentContainerStyle={{
+               paddingBottom: 160,
+            }}
+         >
 
             {/* Categories */}
             <Categories />
@@ -82,7 +87,7 @@ const Home = () => {
             <FeaturedRow 
                id="1234"
                title="Tasty for you"
-               description="PJuicy discount for everyone !"
+               description="Juicy discount for everyone !"
                featuredCategory="featured"
                />
 
@@ -94,9 +99,8 @@ const Home = () => {
                featuredCategory="featured"
             />
 
-
          </ScrollView>
-
+         
       </SafeAreaView>
 )
 }

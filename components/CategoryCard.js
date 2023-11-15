@@ -9,7 +9,7 @@ const CategoryCard = ({ title, imgUrl }) => {
          
       />
 
-      <Text className="absolute bottom-1 left-3 text-white font-bold">{title}</Text>
+      <Text className="absolute bottom-1 left-2 text-white font-bold">{title}</Text>
       
    </TouchableOpacity>
   )

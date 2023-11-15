@@ -7,7 +7,7 @@ const Categories = () => {
    <ScrollView
       horizontal
       contentContainerStyle={{
-         columnGap: 10,
+         columnGap: 6,
          paddingHorizontal: 0,
          paddingTop: 5
       }}
